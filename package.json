@@ -1,0 +1,27 @@
+{
+  "name": "rn-web-modal",
+  "version": "1.0.0",
+  "description": "rn-web patch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aizigao/rn-web-modal.git"
+  },
+  "keywords": [
+    "react-native-web",
+    "modal"
+  ],
+  "author": "aizigao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aizigao/rn-web-modal/issues"
+  },
+  "homepage": "https://github.com/aizigao/rn-web-modal#readme",
+  "devDependencies": {
+    "classnames": "^2.2.5",
+    "react-native-web": "^0.6.1"
+  }
+}

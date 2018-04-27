@@ -1,0 +1,51 @@
+.system-modal-cont {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  &.hide {
+    display: none;
+  }
+  &.transparent {
+    background-color: transparent;
+  }
+  &.slide-enter {
+    transform: translateY(100%);
+    transition: transform 300ms ease-in-out;
+  }
+
+  &.slide-enter.slide-enter-active {
+    transform: translateY(0%);
+  }
+
+  &.slide-exit {
+    transform: translateY(100%);
+    transition: transform 300ms ease-in-out;
+  }
+
+  &.slide-exit.slide-exit-active {
+    transform: translateY(0%);
+  }
+
+  &.fade-enter {
+    opacity: 0.01;
+  }
+
+  &.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+
+  &.fade-exit {
+    opacity: 1;
+  }
+
+  &.fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
+}
